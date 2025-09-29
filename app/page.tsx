@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="container mx-auto p-4">
       <h1>Welcome to My SaaS!</h1>
       <p>Ping response: {ping ? JSON.stringify(ping) : "Loading..."}</p>
       <h2>Features:</h2>
